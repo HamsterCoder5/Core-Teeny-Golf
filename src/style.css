@@ -1,0 +1,79 @@
+* {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+body {
+  margin: 0px;
+  height: 100vh;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(180, 207, 154)
+}
+
+h1, h2, h3 {
+  margin: 0px;
+}
+
+#main-canvas {
+  border: 4px solid rgb(0, 0, 0);
+  border-radius: 8px;
+}
+
+.win-display {
+  position: absolute;
+  background-color: rgb(104, 106, 204);
+  border-radius: 4px;
+  padding: 12px;
+  color: white;
+  visibility: hidden;
+  transition: all 0.15s ease;
+}
+
+.win-display.visible {
+  visibility: visible;
+}
+
+.level-header {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  align-items: end;
+}
+
+.level-header span {
+  font-weight: 500;
+}
+
+.finish-display {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.5);
+  visibility: hidden;
+  transition: all 0.15s ease;
+  z-index: 10;
+}
+
+.finish-display.visible {
+  visibility: visible;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: rgb(167, 199, 137);
+  width: 100vw;
+  text-align: center;
+  padding: 6px;
+  box-sizing: border-box;
+  box-shadow: 0 -4px 2px rgba(0, 0, 0, 0.15);
+}

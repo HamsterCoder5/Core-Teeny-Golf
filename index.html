@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./public/golf_icon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <title>Core Teeny Golf</title>
+  </head>
+  <body>
+    <header class="level-header">
+      <h1 id="level-text">Level 1</h1>
+      <h3 id="stroke-count">Total Strokes: 0</h3>
+    </header>
+    <canvas id="main-canvas" width="600" height="600"></canvas>
+    <div class="win-display" id="win-display">
+      <h1>You have beaten the level!</h1>
+      <h3>Proceeding to next level...</h3>
+    </div>
+    <div class="finish-display" id="finish-display">
+        <h1>You have finished the game!</h1>
+        <h3>Refresh the page to play again</h3>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+    <footer>
+      <span>
+        © 2025&nbsp;
+        <span>
+          Core Teeny Golf&nbsp;
+        </span>
+        | Created by
+        <a>
+          HamsterCoder
+        </a>
+      </span>
+    </footer>
+  </body>
+</html>
