@@ -1,6 +1,6 @@
-import { ctx, canvas } from "./setup";
-import Ball from "./ball";
-import levels from "./levels";
+import { ctx, canvas } from "./setup.js";
+import Ball from "./ball.js";
+import levels from "./levels.js";
 
 // Configuration
 const maxVelocity = 20;

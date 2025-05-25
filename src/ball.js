@@ -1,4 +1,4 @@
-import { canvas, ctx } from "./setup";
+import { canvas, ctx } from "./setup.js";
 
 export default class Ball {
   constructor(x, y, radius, velX, velY, friction) {
